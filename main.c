@@ -11,8 +11,8 @@ int main(void) {
   JuegoDeLaVida juego;
 
   //Control defensivo del llamado a funcion
-  if()inicializar_juego_vida(&juego) != ERR_OK) {
-    CloleWindow();
+  if(inicializar_juego_vida(&juego) != ERR_OK) {
+    CloseWindow();
     return -1;
   }
 
